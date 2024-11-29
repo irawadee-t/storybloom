@@ -48,8 +48,8 @@ npm run dev
 ---
 
 ## Supabase Instructions
-### - Go to Supabase Dashboard and create a new project.
-### - Run the following SQL query in your Supabase SQL editor to create the chat_history table:
+#### - Go to Supabase Dashboard and create a new project.
+#### - Run the following SQL query in your Supabase SQL editor to create the chat_history table:
 ```sql
 CREATE TABLE chat_history (
     id SERIAL PRIMARY KEY,
@@ -61,7 +61,7 @@ CREATE TABLE chat_history (
     created_at TIMESTAMP DEFAULT NOW()
 );
 ```
-### - Enable API Access
-#### -- Go to your Supabase Dashboard.
-#### -- Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
+#### - Enable API Access
+**Go to your Supabase Dashboard.
+**Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
 
