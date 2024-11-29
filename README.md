@@ -29,7 +29,39 @@ This project is an interactive demo built using **Vite**, **React**, **TypeScrip
 ```bash
 git clone <REPO_URL>
 cd <project-folder>
+```
+### 2. Install Dependencies
+```bash
+git clone <REPO_URL>
+cd <project-folder>
+```
+### 3. Create a .env file in your root directory
+```bash
+VITE_SUPABASE_URL=<your-supabase-url>
+VITE_SUPABASE_ANON_KEY=<your-supabase-anon-key>
+VITE_OPENAI_API_KEY=<your-openai-api-key>
+```
+### 4. Run the dev server, it will be at http://localhost:5173
+```bash
+npm run dev
+```
+---
 
-### 1. Clone the Repository
-
+## Supabase Instructions
+### - Go to Supabase Dashboard and create a new project.
+### - Run the following SQL query in your Supabase SQL editor to create the chat_history table:
+```sql
+CREATE TABLE chat_history (
+    id SERIAL PRIMARY KEY,
+    user_id UUID NOT NULL,
+    segment_id INT NOT NULL,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    follow_up_questions TEXT[] NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+```
+### - Enable API Access
+#### -- Go to your Supabase Dashboard.
+#### -- Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
 
