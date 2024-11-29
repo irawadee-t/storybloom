@@ -1,7 +1,7 @@
 # StoryBloom
 The StoryBloom Project - Building Joyful Interactions for Shared Wonder.
 
-# The Giving Tree Interactive Demo
+# Starting With: The Giving Tree Demo
 
 This project is an interactive demo built using **Vite**, **React**, **TypeScript**, **Supabase**, and the **OpenAI API**. Users can flip through a virtual book, answer questions, and generate follow-up questions via GPT 4o-mini, and review their responses via Supabase.
 
