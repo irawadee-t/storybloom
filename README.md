@@ -5,15 +5,11 @@ The StoryBloom Project - Building Joyful Interactions for Shared Wonder.
 
 This project is an interactive demo built using **Vite**, **React**, **TypeScript**, **Supabase**, and the **OpenAI API**. Users can flip through a virtual book, answer questions, and generate follow-up questions via GPT 4o-mini, and review their responses via Supabase.
 
----
-
 ## Features
 - **Book Navigation**: Users can navigate the book using 'next' and 'prev' buttons, along with through a menu that separates the book into 5 thought segments.
 - **Interactive Questions**: Each segment contains thought-provoking questions related to the content of the book which parents can use to ask their children.
 - **Follow-Up Questions**: Parents can type their child's answer into an input box and generate deeper follow-up questions using OpenAI GPT.
 - **Data Storage**: Store all chat interactions in a Supabase database.
-
----
 
 ## Prerequisites
 1. **Node.js**: Ensure you have Node.js (>=14.x) installed. [Download Node.js](https://nodejs.org/)
@@ -45,7 +41,6 @@ VITE_OPENAI_API_KEY=<your-openai-api-key>
 ```bash
 npm run dev
 ```
----
 
 ## Supabase Instructions
 #### - Go to Supabase Dashboard and create a new project.
@@ -62,6 +57,6 @@ CREATE TABLE chat_history (
 );
 ```
 #### - Enable API Access
-**Go to your Supabase Dashboard.
-**Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
+- **Go to your Supabase Dashboard.
+- **Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
 
