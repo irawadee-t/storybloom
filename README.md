@@ -57,6 +57,6 @@ CREATE TABLE chat_history (
 );
 ```
 #### - Enable API Access
-- **Go to your Supabase Dashboard.
-- **Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
+- Go to your Supabase Dashboard.
+- Navigate to Settings > API and ensure the permissions for INSERT and SELECT operations are allowed for the chat_history table.
 
