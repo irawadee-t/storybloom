@@ -1,5 +1,5 @@
 # StoryBloom
-The StoryBloom Project - Building Joyful Interactions for Shared Wonder.
+The StoryBloom Project - Building Joyful Interactions for Shared Wonder. [Demo](https://www.loom.com/share/b9fe1aeac2e9494dadd654814d29e796?sid=c3d11bf9-dc38-4345-a97e-aa07280ba1d1)
 
 # Starting With: The Giving Tree Demo
 
